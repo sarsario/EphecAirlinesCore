@@ -1,15 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\EphecAirlinesBL\EphecAirlinesBL.csproj" />
     <ProjectReference Include="..\Error\Error.csproj" />
     <ProjectReference Include="..\Model\Model.csproj" />
   </ItemGroup>
