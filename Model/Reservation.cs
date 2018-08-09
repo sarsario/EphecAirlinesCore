@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Model
+{
+    public class Reservation
+    {
+        public int Id { get; set; }
+
+        public int TravelId { get; set; }
+
+        public int ClientId { get; set; }
+
+        public DateTime ValidFrom { get; set; }
+
+        public DateTime ValidTo { get; set; }
+
+    }
+}
